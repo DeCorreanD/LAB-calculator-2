@@ -1,0 +1,104 @@
+body {
+  background-color: azure;
+}
+
+.wrapper {
+  width: 400px;
+  margin: 0;
+  background: white;
+ display: flexbox;
+
+}
+
+.display {
+  font-family: monospace;
+  width: 100%;
+  background-color: black;
+  display: flex;
+ justify-content: flex-end;
+  color: white;
+  font-size: 48px;
+  height: 50px;
+  
+}
+
+.btn-number {
+  background-color: #d8d9db;
+  color: black;
+  width: 24%;
+  justify-content: space-between;
+  
+  
+}
+
+.sign {
+  background-color: #df974c;
+  color: white;
+  width: 24.5%;
+  justify-content: space-between;
+  vertical-align: right;
+  
+  
+  
+}
+
+.sign-odd {
+  background-color: #d8d9db;
+  color: black;
+  width: 24.5%;
+  justify-content: space-between;
+  
+}
+
+.sign-odd-big {
+  background-color: #d8d9db;
+  color: black;
+  width: 48.5%;
+  
+}
+
+.btn-number-bigger {
+  background-color: #d8d9db;
+  color: black;
+  width: 74%;
+}
+
+
+
+.btn-number:hover {
+  background-color: #ebebeb;
+}
+.btn-number-bigger:hover {
+  background-color: #ebebeb;
+}
+
+.sign:hover {
+  background-color: #dfb07e;
+}
+
+.sign-odd:hover {
+ background-color: #ebebeb; 
+}
+
+.sign-odd-big:hover {
+  background-color: #ebebeb;
+}
+
+.btn-number:active {
+  background-color: #bbbcbe;
+}
+
+.btn-number-bigger:active {
+  background-color: #bbbcbe;
+}
+
+.sign-odd:active {
+  background-color: #bbbcbe;
+}
+.sign-odd-big:active {
+  background-color: #bbbcbe;
+}
+
+.sign:active {
+  background-color: #dd8d37;
+}
